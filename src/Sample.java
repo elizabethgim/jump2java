@@ -16,6 +16,7 @@ public class Sample {
         System.out.println(7 % 3);
         System.out.println(3 % 7);
 
+        // 문자열 추가나 변경등의 작업이 많을 경우에는 StringBuffer를, 문자열 변경 작업이 거의 없는 경우에는 그냥 String을 사용하는 것이 유리하다.
         // StringBuffer
         StringBuffer sb = new StringBuffer();  // StringBuffer 객체 sb 생성
         sb.append("hello");
