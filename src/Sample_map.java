@@ -5,7 +5,6 @@ public class Sample_map {
         HashMap<String, String> map = new HashMap<>();
         map.put("people", "사람");
         map.put("baseball", "야구");
-
-        System.out.println(map.get("사람"));
+        System.out.println(map.get("people"));
     }
 }
