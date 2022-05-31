@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jump2java.iml" filepath="$PROJECT_DIR$/jump2java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jump2java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jump2java.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jump2java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jump2java.test.iml" />
     </modules>
   </component>
 </project>
