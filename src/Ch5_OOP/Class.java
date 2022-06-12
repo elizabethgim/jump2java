@@ -13,5 +13,10 @@ public class Class {
         Animal cat = new Animal();
         cat.setName("kitty");
         System.out.println(cat.name);
+
+        Animal dog = new Animal();
+        dog.setName("happy");
+        System.out.println(dog.name);
+
     }
 }
