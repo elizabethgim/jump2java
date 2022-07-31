@@ -8,5 +8,9 @@ public class Sample {
         }else {
             System.out.println("걸어가라");
         }
+
+        int x = 3;
+        int y = 2;
+        System.out.println(x > y);  // true 출력
     }
 }
