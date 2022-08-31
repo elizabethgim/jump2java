@@ -7,16 +7,11 @@ public class Sample {
     public static void main(String[] args) throws IOException {
         InputStream in = System.in;
 
-        int a;
-        int b;
-        int c;
+        byte[] a = new byte[3];
+        in.read(a);
 
-        a = in.read();
-        b = in.read();
-        c = in.read();
-
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+        System.out.println(a[2]);
     }
 }
