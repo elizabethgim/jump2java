@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 public class Sample_String {
     public static void main(String[] args){
         String a = "hello";

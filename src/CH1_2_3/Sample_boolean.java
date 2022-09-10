@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 public class Sample_boolean {
     public static void main(String[] args){
         int base = 180;

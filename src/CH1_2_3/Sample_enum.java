@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 public class Sample_enum {
     enum CoffeeType {
         AMERICANO,

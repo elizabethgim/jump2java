@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 import house.*;
 
 public class SampleHouse {

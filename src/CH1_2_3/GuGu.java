@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 public class GuGu {
     public void dan(int n){
         for(int i=1;i<10;i++){

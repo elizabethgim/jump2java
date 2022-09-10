@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 import java.util.Arrays;
 import java.util.HashSet;
 

@@ -1,3 +1,5 @@
+package CH1_2_3;
+
 public class Sample {
     /* Clean code that works */
 

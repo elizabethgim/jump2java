@@ -1,6 +1,6 @@
 package Ch04_control;
 
-public class Sample {
+public class Sample_ {
     public static void main(String[] args){
         boolean money = true;
         if (money) {
