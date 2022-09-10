@@ -5,7 +5,7 @@ public class Sample_enum {
         AMERICANO,
         ICE_AMERICANO,
         CAFE_LATTE
-    };
+    }
 
     public static void main(String[] args){
         for(CoffeeType drink: CoffeeType.values()){
