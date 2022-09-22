@@ -1,4 +1,5 @@
 package Ch07.Thread_05;
+import java.util.ArrayList;
 
 public class Sample extends Thread {
     int seq;
@@ -17,10 +18,20 @@ public class Sample extends Thread {
     }
 
     public static void main(String[] args){
+        ArrayList<Thread> threads = new ArrayList<>();
         for(int i=0;i<10;i++){
             Thread t = new Sample(i);
             t.start();
+            threads.add(t);
         }
+
+        for (Thread t : threads) {
+            try {
+                t.join(); // t 쓰레드가 종료할 때까지 기다린다.
+            } catch (Exception e) {
+            }
+        }
+
         System.out.println("main end.");
     }
 }
